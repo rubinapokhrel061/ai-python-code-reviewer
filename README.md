@@ -1,58 +1,90 @@
 # AI Python Code Reviewer
 
-This project provides an AI-based Python code review tool built with Streamlit and the Google Gemini API. The app allows users to input their Python code and analyzes it to identify bugs, logical errors, or areas for improvement. It then provides a fixed version of the code along with an explanation of the changes made.
+This project provides an AI-based Python code review tool. It analyzes Python code to identify bugs, logical errors, and areas for improvement, then provides a fixed version with an explanation of the changes.  This version uses Streamlit for the user interface and the Google Gemini API for code analysis.
 
 ## Requirements
 
-To run the app, ensure you have the following:
-
-- **Python **
-- **Streamlit**
-- **Google Generative AI API Key**
-- **Python-dotenv**
+- Python (Specify a minimum version, e.g., Python 3.8+)
+- Streamlit
+- Google Generative AI API Key
+- python-dotenv
 
 ## Installation
 
-To set up the project on your local machine:
-
-1. **Clone the repository**:
-
-   Clone the repository from GitHub to your local machine:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/rubinapokhrel061/ai-python-code-reviewer.git
-Navigate into the project directory:
 
-2.Change your working directory to the newly cloned project folder:
+Navigate to the project directory:
 
-cd ai-code-reviewer
-Install the required dependencies:
+Bash
 
-Install all required Python dependencies using pip
+cd ai-python-code-reviewer
+
+Install dependencies:
+
+Bash
+
 pip install -r requirements.txt
 
-Set up your .env file with your Google Gemini API Key:
+Set up your .env file:
 
-Create a .env file in the root directory of your project and add the following, replacing your_api_key_here with your actual API key from Google Gemini:
+Create a .env file in the project's root directory and add your Google Gemini API key:
 
-GENAI_API_KEY=your_api_key_here
+GENAI_API_KEY=your_actual_api_key_here
 
-Usage
-To use the app, follow these steps:
+Markdown
 
-Run the app with Streamlit:
+# AI Python Code Reviewer
 
-Launch the app by running the following command in your terminal:
+This project provides an AI-based Python code review tool. It analyzes Python code to identify bugs, logical errors, and areas for improvement, then provides a fixed version with an explanation of the changes.  This version uses Streamlit for the user interface and the Google Gemini API for code analysis.
+
+## Requirements
+
+- Python (Specify a minimum version, e.g., Python 3.8+)
+- Streamlit
+- Google Generative AI API Key
+- python-dotenv
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone [https://github.com/rubinapokhrel061/ai-python-code-reviewer.git](https://github.com/rubinapokhrel061/ai-python-code-reviewer.git)
+
+## Navigate to the project directory:
+
+Bash
+cd ai-python-code-reviewer
+
+## Install dependencies:
+
+Bash
+pip install -r requirements.txt
+
+## Set up your .env file:
+
+Create a .env file in the project's root directory and add your Google Gemini API key:
+
+GENAI_API_KEY=your_actual_api_key_here
+Important:  Do not commit your .env file to version control.  It should be listed in your .gitignore file.
+
+## Usage
+Run the app:
+
+Bash
 
 streamlit run app.py
 Input your Python code:
 
-Once the app is running, open it in your browser. You'll see a text area where you can input the Python code you want to be reviewed.
+Open the app in your browser.  A text area will be displayed where you can enter the Python code you want to be reviewed.
 
-Click "Generate":
+Generate the review:
 
-After entering your Python code, click the "Generate" button to analyze the code. The app will provide:
+Click the "Generate" button. The app will analyze your code and provide:
 
-Bug Report: A detailed description of any issues or bugs found in your code.
-Fixed Code: A corrected version of the code with improvements and fixes.
-Explanation: An explanation of the changes made and why they are necessary.
+Bug Report: A description of any issues or bugs found.
+Fixed Code: A corrected version of your code.
+Explanation: An explanation of the changes made.
