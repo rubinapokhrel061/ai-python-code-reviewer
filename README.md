@@ -1,21 +1,20 @@
-
-# AI Python Code Reviewer
+🚀 AI Python Code Reviewer
 
 This project provides an AI-based Python code review tool built with Streamlit and the Google Gemini API. The app allows users to input their Python code and analyzes it to identify bugs, logical errors, or areas for improvement. It then provides a fixed version of the code along with an explanation of the changes made.
 
-## Requirements
+ 📌Requirements
 
 - Python 
 - Streamlit
 - Google Generative AI API Key
 - python-dotenv
 
-## Installation
+📌 Installation
 
-1. **Clone the repository:**
+##Clone the repository:
 
    ```bash
-   git clone [https://github.com/rubinapokhrel061/ai-python-code-reviewer.git](https://github.com/rubinapokhrel061/ai-python-code-reviewer.git)
+   git clone https://github.com/rubinapokhrel061/ai-python-code-reviewer.git
 
 ## Navigate to the project directory:
 
@@ -52,3 +51,5 @@ Click the "Generate" button. The app will analyze your code and provide:
 Bug Report: A description of any issues or bugs found.
 Fixed Code: A corrected version of your code.
 Explanation: An explanation of the changes made.
+
+
