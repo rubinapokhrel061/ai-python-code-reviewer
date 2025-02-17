@@ -9,41 +9,32 @@ This project provides an AI-based Python code review tool built with Streamlit a
 - Google Generative AI API Key
 - python-dotenv
 
-📌 Installation
+💡 Installation
 
-##Clone the repository:
-
-   ```bash
+📌Clone the repository:
+  ```bash
    git clone https://github.com/rubinapokhrel061/ai-python-code-reviewer.git
 
-## Navigate to the project directory:
-
- ```bash
+📌 Navigate to the project directory:
+```bash
    cd ai-python-code-reviewer
 
-## Install dependencies:
-
- ```bash
+📌 Install dependencies:
+```bash
    pip install -r requirements.txt
 
-## Set up your .env file:
-
+📌Set up your .env file:
 Create a .env file in the project's root directory and add your Google Gemini API key:
-
 GENAI_API_KEY=your_actual_api_key_here
 
-## Usage
+📌 Usage
 
 Run the app:
-
- ```bash
+```bash
   streamlit run app.py
 
-
 Input your Python code:
-
 Open the app in your browser.  A text area will be displayed where you can enter the Python code you want to be reviewed.
-
 Generate the review:
 
 Click the "Generate" button. The app will analyze your code and provide:
